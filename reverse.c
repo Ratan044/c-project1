@@ -1,4 +1,4 @@
-void rev()
+rev()
 {
     int i, j, k;
     char str[100];
