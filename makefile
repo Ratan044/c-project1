@@ -8,5 +8,5 @@ reverse.o:reverse.c
 	gcc -c reverse.c
 biggest.o:biggest.c
 	gcc -c biggest.c
-biggest2.o:biggest.c
-	gcc -c biggest.c
+biggest2.o:biggest2.c
+	gcc -c biggest2.c
