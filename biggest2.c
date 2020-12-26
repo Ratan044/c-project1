@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-big()
+big22()
 {
     int num1, num2;
 
