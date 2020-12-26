@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-void mail(){
+void main(){
 fact();
 rev();
 }
