@@ -4,5 +4,5 @@ void main(){
 void fact();
 void rev();
 void big();
-void big2();
+big2();
 }
