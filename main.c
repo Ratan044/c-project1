@@ -1,5 +1,5 @@
 #include <stdio.h>
-mail(){
+void mail(){
 fact();
 rev();
 }
