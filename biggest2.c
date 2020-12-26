@@ -16,5 +16,5 @@ void big2()
         printf("Largest number is %d.", num2);
     }
 
-    return 0;
+  //  return 0;
 }
