@@ -5,4 +5,5 @@ fact();
 rev();
 big();
 big2();
+pal();
 }
