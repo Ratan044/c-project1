@@ -2,6 +2,6 @@
 #include <string.h>
 void main(){
 void fact();
-rev();
-big();
+void rev();
+void big();
 }
