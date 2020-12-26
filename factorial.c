@@ -1,22 +1,16 @@
 #include <stdio.h>
- 
-fact()
-{
- int no,factorial;
- 
-  	printf("Enter a number to calculate it's factorial\n");
-  	scanf("%d",&no);
-  	factorial=fact(no);
-    printf("Factorial of the num(%d) = %d\n",no,factorial);
-//printf("Factorial of the num(%d) = %d\n",no,fact(no));//another way of calling a function//comment above two lines if you want to use this
-}
- 
-int fact(int n)
-{
-    int i,f=1;
-    for(i=1;i<=n;i++)
-    {
-        f=f*i;
-    }
-   // return f;
+void fact() {
+	int n,  i;
+	unsigned long long fact = 1;
+	printf("Enter an integer: ");
+	scanf("%d, &n);
+
+    if (n < 0)
+       printf("Error! Factorial of a negative number doesn't exist.")
+     else {
+       for (i = 1; i <= n; ++i) {
+           fact *= i;
+       }
+       printf("Factorial of %d = %11u", n, fact);
+   }
 }
