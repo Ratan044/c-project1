@@ -1,5 +1,5 @@
-XYZ.exe:main.o factorial.o reverse.o biggest.o
-	gcc -o XYZ.exe main.o factorial.o reverse.o biggest.o
+XYZ.exe:main.o factorial.o reverse.o biggest.o biggest2.o
+	gcc -o XYZ.exe main.o factorial.o reverse.o biggest.o biggest2.o
 main.o:main.c
 	gcc -c main.c
 factorial.o:factorial.c
@@ -7,4 +7,6 @@ factorial.o:factorial.c
 reverse.o:reverse.c
 	gcc -c reverse.c
 biggest.o:biggest.c
+	gcc -c biggest.c
+biggest2.o:biggest.c
 	gcc -c biggest.c
