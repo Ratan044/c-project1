@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 void main(){
-fact();
-rev();
-big();
+void fact();
+void rev();
+void big();
 }
